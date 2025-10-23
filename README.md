@@ -249,8 +249,6 @@ git push nome_branch
 > Envia o branch criado com novas as alterações feitas para o seu repositório do GitHub.
 ---
 
-## 👥 Adição de colaboradores ao repositório
-
 ##  GitFluence
 É uma IA que ajuda desenvolvedores a encontrar facilmente os comandos Git, seria como uma biblioteca Git, só basta perguntar em como criar tal comando, que ele te mostrará diretamente o que você precisa, em apenas uma linha, por conta de sua interface simples e direta.
 Ex.:
