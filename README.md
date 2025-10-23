@@ -209,7 +209,61 @@ git log --oneline --graph
 
 ---
 
+## 🛸 17. Clonar o repositório
+
+```bash
+git clone "https:/link_do_repositorio_com_fork"
+```
+> Baixa a cópia do repositório para seu computador, em uma nova `pasta/diretório` local
+---
+
+## ➕ 18. Adicionar arquivos
+
+```bash
+echo "Uma mensagem bem legal" > mensagem.txt
+git add mensagem.txt
+git add .
+```
+> `echo`: adiciona um texto a um arquivo
+
+> `git add`: prepara um determinado arquivo para a área de staging
+
+> `git add .`: prepara todos os arquivos da pasta para a área de staging
+---
+
+## 📄 19. Criar o commit
+
+```bash
+git commit -m "feat: Adiciona documentacao sobre integracao e colaboracao"
+```
+> Salva uma alteração preparada com o `git add`, onde será exibido a mensagem do `commit` para explicar o que foi feito, no caso do `feat`: é uma nova funcionalidade que será mostrada.
+---
+
+## 🌐 20. Enviar para o Fork no GitHub 
+
+```bash
+git push
+ou
+git push nome_branch
+```
+> Envia o branch criado com novas as alterações feitas para o seu repositório do GitHub.
+---
+
+## 👥 Adição de colaboradores ao repositório
+
+##  GitFluence
+É uma IA que ajuda desenvolvedores a encontrar facilmente os comandos Git, seria como uma biblioteca Git, só basta perguntar em como criar tal comando, que ele te mostrará diretamente o que você precisa, em apenas uma linha, por conta de sua interface simples e direta.
+Ex.:
+```bash
+> como crio uma branch?
+> git checkout -b nome_da_branch 
+```
+---
+
 ## 📘 Créditos
 
 Material criado para fins educacionais na aula prática de **Git Local**,  
 ministrada por *Anderson R. M. Gomes* 🧑‍🏫
+
+**🚀 Próximos passos:**  
+Na próxima aula, você aprenderá a conectar este repositório local ao GitHub com os comandos `git remote`, `git push` e `git pull`.
