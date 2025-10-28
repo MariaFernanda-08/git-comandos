@@ -209,6 +209,15 @@ git log --oneline --graph
 
 ---
 
+## 🛸 17. Clonar o repositório
+
+```bash
+git clone "https:/link_do_repositorio_com_fork"
+```
+> Baixa a cópia do repositório para seu computador, em uma nova `pasta/diretório` local
+---
+
+
 ## ➕ 18. Adicionar arquivos
 
 ```bash
